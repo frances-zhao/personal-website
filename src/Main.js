@@ -5,8 +5,13 @@ const Main = () => {
   return (
     <main className="main">
       <section id="about">
-        <h2>About Me</h2>
-        <p>This is a brief introduction about myself.</p>
+        <p>hi! i am currently a first-year systems design engineering student
+            at the <a href="https://uwaterloo.ca/future-students/programs/systems-design-engineering" target="_blank"> University of Waterloo</a>.
+        </p>
+        <p>
+            i am an aspiring designer interested in merging <b>design, art, and engineering</b> to create both impactful and 
+            innovative solutions, and raising a tank of guppies...
+        </p>
       </section>
       <section id="projects">
         <h2>Projects</h2>

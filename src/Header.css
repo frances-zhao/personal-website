@@ -2,10 +2,9 @@
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    padding: 10px 20px;
-    font-family: Arial, sans-serif; 
+    /*padding: 3rem 4rem;*/
+    font-family: 'a-reg'; 
     text-decoration: none; 
-
   }
   
   .left-header {
@@ -17,20 +16,26 @@
   }
   
   .left-header a {
-    color: #091057; 
+    color: #525FE1; 
     text-decoration: none;
     font-weight: bold;
     
   }
 
   .right-header a {
-    color: #091057; 
+    color: #525FE1; 
     text-decoration: none;
   }
   
   .right-header a:not(:last-child)::after {
     content: " 🐇 "; 
-    color: black; 
+    color: #525FE1; 
+    transition: color 0.3s ease-out;
+
+  }
+
+  .right-header a:hover {
+    color: #F86F03; 
   }
   
 

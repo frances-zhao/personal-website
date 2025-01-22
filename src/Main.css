@@ -1,7 +1,6 @@
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  
+.main {
+    font-size: 0.9rem;
+    margin: 0;
+    font-family: 'a-reg';
+    text-align: justify;
+}

@@ -1,6 +1,6 @@
 
 .App {
-  padding: 50px;
+  padding: 5rem;
   text-align: center;
 }
 
@@ -47,7 +47,3 @@ a:hover {
   text-decoration: underline;
 }
 
-
-body {
-  padding: 0 200px;
-}
