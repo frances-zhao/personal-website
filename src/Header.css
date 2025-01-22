@@ -1,0 +1,37 @@
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    font-family: Arial, sans-serif; 
+    text-decoration: none; 
+
+  }
+  
+  .left-header {
+    text-align: left; 
+  }
+  
+  .right-header {
+    text-align: right; 
+  }
+  
+  .left-header a {
+    color: #091057; 
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+
+  .right-header a {
+    color: #091057; 
+    text-decoration: none;
+  }
+  
+  .right-header a:not(:last-child)::after {
+    content: " 🐇 "; 
+    color: black; 
+  }
+  
+
+  
