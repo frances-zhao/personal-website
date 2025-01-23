@@ -4,26 +4,27 @@
 }
 
 body {
+  padding-top: 6rem;
   background-color: #FFF6F4;
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'cgregular';
   overflow: hidden;
   height: 100vh; 
-
+  line-height: 1.2rem;
+  color: rgb(51, 51, 51);
   
 }
 
 .container {
-  width: 40rem; 
-  max-width: 100%; 
-  margin: auto;
+  width: 28rem; 
+  max-width: 80vw; 
+  margin:auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: auto;
-  box-sizing: border-box; 
+  overflow: hidden;
+  flex-direction: column;
 }
 
 code {
@@ -91,4 +92,7 @@ a:hover {
   color: #FF7F3E;
 }
 
-
+p {
+  font-family: 'a-reg';
+  font-size: 0.8rem;
+}

@@ -2,7 +2,6 @@
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    /*padding: 3rem 4rem;*/
     font-family: 'a-reg'; 
     text-decoration: none; 
   }
@@ -12,6 +11,7 @@
   }
   
   .right-header {
+    font-size: .9rem;
     text-align: right; 
   }
   
@@ -20,6 +20,17 @@
     text-decoration: none;
     font-weight: bold;
     
+  }
+
+  .logo {
+    height: 2rem; 
+    width: auto;
+    transition: transform 0.3s ease-out;
+
+  }
+
+  .logo:hover {
+    transform: scale(1.1); 
   }
 
   .right-header a {

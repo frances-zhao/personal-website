@@ -1,21 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import Header from './Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Main from './Main';
+import Header from './Header';
+import Works from './Works';
+import Extras from './Extras';
 import Footer from './Footer';
-import './App.css';
 
 const App = () => {
   return (
-    <div className="App">
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/works" element={<Works />} />
+            <Route path="/extras" element={<Extras />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
-
-

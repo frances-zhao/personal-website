@@ -1,6 +1,38 @@
 .main {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 0;
     font-family: 'a-reg';
     text-align: justify;
+}
+
+button {
+    font-size: 0.75rem;
+    padding: .2rem;
+    background-color: transparent;
+    color: #4335A7;
+    cursor: pointer;
+    border: .06rem solid #525FE1;
+    transition: border 0.1s ease, color 0.1s ease, background-color 0.1s ease;
+    display: flex;
+    justify-self: flex-end;
+    background-color:#80C4E9;
+  }
+  
+  button:hover {
+    border:.06rem solid #80C4E9;
+    color: #80C4E9;
+    background-color: #525FE1;;
+    ;
+  }
+
+  .show-more-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    opacity: 0;
+}
+
+.show-more-content.show {
+    max-height: 1000px;
+    opacity: 1;
 }

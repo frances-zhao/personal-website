@@ -1,0 +1,48 @@
+.container {
+  width: 40rem;
+  max-width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+
+.video-container {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  }
+
+
+.show-more-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+}
+
+.show-more-content.show {
+  max-height: 1000px; /* Arbitrary large value to ensure it expands fully */
+  opacity: 1;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #4335a7;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #1f1f72;
+}
