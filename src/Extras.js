@@ -40,7 +40,10 @@ const Extras = () => {
               <source src="/snoopy_grwm.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+            <p>&copy; Peanuts Worldwide</p>
+
           </div>
+
           <div className={`show-more-content ${showMore ? 'show' : ''}`}>
             <p>
               Additional content goes here. You can add more details about yourself, your interests, or anything else you want to share.

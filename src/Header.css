@@ -4,7 +4,8 @@
     align-items: center; 
     font-family: 'a-reg'; 
     text-decoration: none; 
-  }
+    width: 28rem;
+}
   
   .left-header {
     text-align: left; 

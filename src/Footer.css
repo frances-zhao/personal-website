@@ -1,32 +1,32 @@
 .footer {
-    font-size: .9rem;
-    align-items: left; 
-    text-align: left;    
-    background-color: transparent;
-    color: #F86F03;
-    font-family: 'a-reg';
-  }
-  
-  .footer p {
-    font-size: .7rem;
-    margin: 0;
-    font-family: 'a-reg'; 
+  width: 28rem;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: .9rem;
 
-  }
-  
-  .footer-links a {
-    color: #525FE1; 
-    text-decoration: none;
-  }
-  
-  .footer-links a:not(:last-child)::after {
-    content: " 🐇 "; 
-    color: #525FE1; 
-    transition: color 0.3s ease-out;
+}
 
-  }
+.footer-links {
+  display: flex;
+  font-family: 'a-reg';
+}
 
-  .footer-links a:hover {
-    color: #F86F03; 
-  }
-  
+.footer-links a {
+  color: #525FE1; 
+  text-decoration: none;
+}
+
+.footer-links a:not(:last-child)::after {
+  content: " 🐇 "; 
+  color: #525FE1; 
+  transition: color 0.3s ease-out;
+}
+
+.footer-links a:hover {
+  color: #F86F03; 
+}
+
+.footer p {
+  color: #F86F03;
+  font-size: 0.7rem;
+}

@@ -1,0 +1,149 @@
+.container {
+  width: 28rem; /* Set a fixed width */
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto; /* Center the container */
+}
+
+.works {
+  width: 100%;
+  max-width: 28rem; /* Ensure the content does not exceed the container width */
+  margin: 0 auto;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  box-sizing: border-box;
+  border: 0.05rem solid #ccc; 
+  border-radius: .3rem;
+  outline: none;
+}
+
+.search-bar:focus {
+  border: 0.05rem solid #525FE1; 
+  outline: none; 
+}
+
+.project-types-container, .tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.project-type {
+  font-size: 0.75rem;
+  padding: 0.2rem;
+  background-color: transparent;
+  color: #F86F03;
+  cursor: pointer;
+  border: 0.06rem solid #F86F03; 
+  transition: border 0.1s ease, color 0.1s ease, background-color 0.1s ease;
+  display: inline-block;
+  background-color: #FFE5D9;
+}
+
+.project-type:hover {
+  border: 0.06rem solid #FFA500; 
+  color: #FFA500; 
+  background-color: #FFDAB9; 
+}
+
+.project-type.selected {
+  background-color: #FFA500; 
+  color: white;
+}
+
+.tag {
+  font-size: 0.75rem;
+  padding: 0.2rem;
+  background-color: transparent;
+  color: #4335A7;
+  cursor: pointer;
+  border: 0.06rem solid #525FE1;
+  transition: border 0.1s ease, color 0.1s ease, background-color 0.1s ease;
+  display: inline-block;
+  background-color: #80C4E9;
+}
+
+.tag:hover {
+  border: 0.06rem solid #80C4E9;
+  color: #80C4E9;
+  background-color: #525FE1;
+}
+
+.tag.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.project {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 0.05rem solid #ccc;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px #bbbbbb;
+  background-color: #ffffff;
+  transition: transform 0.2s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-family: 'a-reg';
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.project-description {
+  font-family: 'a-reg';
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-tags {
+  font-family: 'a-reg';
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.project-tag {
+  font-size: 0.75rem;
+  padding: 0.3rem;
+  background-color: transparent;
+  color: #525FE1;
+  border: 0.06rem solid #8c95f2;
+  display: inline-block;
+  background-color: #e4f6ff;
+  border-radius: 0.4rem;
+}

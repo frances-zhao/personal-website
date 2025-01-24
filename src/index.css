@@ -1,36 +1,35 @@
 * {
   padding: 0;
+  margin:0;
+
   box-sizing: border-box;
 }
 
 body {
-  padding-top: 6rem;
+  padding-top: 10rem;
   background-color: #FFF6F4;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-family: 'cgregular';
-  overflow: hidden;
+  overflow: auto;
   height: 100vh; 
   line-height: 1.2rem;
-  color: rgb(51, 51, 51);
+  color: rgb(62, 62, 62);
   
 }
-
 .container {
   width: 28rem; 
-  max-width: 80vw; 
-  margin:auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  flex-direction: column;
+  padding: 1px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
 
 @font-face {
   font-family: 'a-reg'; ;
@@ -96,3 +95,5 @@ p {
   font-family: 'a-reg';
   font-size: 0.8rem;
 }
+
+
