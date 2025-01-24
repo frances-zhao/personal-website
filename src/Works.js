@@ -80,7 +80,7 @@ const Works = () => {
           <div className="projects-container">
             {filteredProjects.map((project, index) => (
               <div key={index} className="project">
-                <img src={project.image} alt={`${project.title} image`} />
+                <img src={project.image} alt={`${project.title}`} />
                 <div className="project-content">
                   <div className="project-title">{project.title}</div>
                   <div className="project-description">{project.description}</div>

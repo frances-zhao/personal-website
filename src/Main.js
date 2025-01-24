@@ -14,7 +14,7 @@ const Main = () => {
     <main className="main">
       <section id="about">
         <p>hi! my name is <b>Frances Zhao</b> i am currently a first-year systems design engineering student
-            at the <a href="https://uwaterloo.ca/future-students/programs/systems-design-engineering" target="_blank"> University of Waterloo</a>.
+            at the <a href="https://uwaterloo.ca/future-students/programs/systems-design-engineering" target="_blank" rel="noopener noreferrer"> University of Waterloo</a>.
         </p>
         <p>
             i am an aspiring designer with two big dreams:<br></br>
